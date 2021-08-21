@@ -1,4 +1,5 @@
 const express = require('express');
+const PORT = process.env.PORT || 3001;
 const app = express();
 const { animals } = require('./data/animals');
 
@@ -52,7 +53,9 @@ app.get('/api/animals', (req, res) => {
 
 
 
-app.listen(3001, () => {
-  console.log(`API server now on port http://localhost:3001/api/animals`);
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
 });
+
 //added heroku, https://git.heroku.com/animal-crackr.git
+//https://animal-crackr.herokuapp.com/
