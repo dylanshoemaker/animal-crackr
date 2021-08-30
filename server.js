@@ -4,6 +4,9 @@ const app = express();
 const fs = require('fs');
 const path = require('path');
 
+
+app.use(express.static('public'));
+
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));    //this is a staple
 
@@ -75,6 +78,7 @@ app.get('/api/animals', (req, res) => {
 });
 
 app.get('/api/animals/:id', (req, res) => {
+
   const result = findById(req.params.id, animals);
   if (result) {
     res.json(result);
@@ -111,6 +115,10 @@ function validateAnimal(animal) {
   }
   return true;
 }
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './public/index.html'));
+});
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);

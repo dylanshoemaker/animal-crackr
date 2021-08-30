@@ -180,6 +180,24 @@
         "likes to move it move it"
       ],
       "id": "18"
+    },
+    {
+      "name": "Julien",
+      "species": "lemur",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "likes to move it move it"
+      ],
+      "id": "19"
+    },
+    {
+      "name": "Dingo",
+      "species": "Dingo",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "20"
     }
   ]
 }
