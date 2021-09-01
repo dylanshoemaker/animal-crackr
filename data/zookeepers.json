@@ -59,6 +59,42 @@
       "age": 64,
       "favoriteAnimal": "Rabbit",
       "id": "9"
+    },
+    {
+      "name": "Dylan",
+      "age": 24,
+      "favoriteAnimal": "dingo",
+      "id": "10"
+    },
+    {
+      "name": "Dylan",
+      "age": 24,
+      "favoriteAnimal": "dingo",
+      "id": "11"
+    },
+    {
+      "name": "Dylan",
+      "age": 74,
+      "favoriteAnimal": "dingo",
+      "id": "12"
+    },
+    {
+      "name": "Dylan",
+      "age": 54,
+      "favoriteAnimal": "dingo",
+      "id": "13"
+    },
+    {
+      "name": "Tyler",
+      "age": 25,
+      "favoriteAnimal": "Cats",
+      "id": "14"
+    },
+    {
+      "name": "Dylan",
+      "age": 24,
+      "favoriteAnimal": "dingo",
+      "id": "15"
     }
   ]
 }

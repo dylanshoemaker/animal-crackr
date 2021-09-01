@@ -19,7 +19,7 @@ const handleAnimalFormSubmit = event => {
     diet = '';
   }
 
-  const selectedTraits = $animalForm.querySelector('[name="personality"]').selectedOptions;
+  const selectedTraits = $animalForm.querySelector('[name="personality"').selectedOptions;
   const personalityTraits = [];
   for (let i = 0; i < selectedTraits.length; i += 1) {
     personalityTraits.push(selectedTraits[i].value);
@@ -78,6 +78,6 @@ const handleZookeeperFormSubmit = event => {
 
 
 
-
-$zookeeperForm.addEventListener('submit', handleZookeeperFormSubmit);
 $animalForm.addEventListener('submit', handleAnimalFormSubmit);
+$zookeeperForm.addEventListener('submit', handleZookeeperFormSubmit);
+

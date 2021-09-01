@@ -117,6 +117,24 @@
         "likes to move it move it"
       ],
       "id": "11"
+    },
+    {
+      "name": "Dingo",
+      "species": "Dingo",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "Dingo",
+      "species": "Dingo",
+      "diet": "folivore",
+      "personalityTraits": [
+        "goofy"
+      ],
+      "id": "13"
     }
   ]
 }
